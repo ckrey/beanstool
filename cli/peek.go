@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/beanstalk/go-beanstalk"
+	"github.com/beanstalkd/go-beanstalk"
 )
 
 type PeekCommand struct {

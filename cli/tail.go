@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beanstalk/go-beanstalk"
+	"github.com/beanstalkd/go-beanstalk"
 )
 
 var TooManyErrorsError = errors.New("Too many errors")
