@@ -58,7 +58,7 @@ func (c *Command) GetStatsForTube(tube string) (*TubeStats, error) {
 		return nil, err
 	}
 
-	if name, ok := s["name"]; !ok || name != tube {
+	if _, ok := s["name"]; !ok {
 		return nil, TubeStatsRetrievalError
 	}
 
