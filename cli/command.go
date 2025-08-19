@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/agtorre/gocolorize"
-	"github.com/kr/beanstalk"
+	"github.com/beanstalk/go-beanstalk"
 )
 
 var TitleStyle = gocolorize.NewColor("green")

@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/kr/beanstalk"
+	"github.com/beanstalk/go-beanstalk"
 )
 
 type KickCommand struct {
